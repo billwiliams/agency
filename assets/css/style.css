@@ -202,7 +202,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
     top: 0px ;
 
 
-    width: 15%;
+    width: 20%;
     /*padding: 1px 20px;*/
     background: #1d1d1d; /* browsers that don't support rgba */
     background: rgba(0, 0, 0, .7);

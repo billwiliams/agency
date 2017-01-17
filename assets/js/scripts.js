@@ -20,10 +20,23 @@ jQuery(document).ready(function() {
 	    Slider 2
 	*/
 	$('.slider-2-container').backstretch([
-	  "assets/img/slider/5.jpg"
-	, "assets/img/slider/6.jpg"
-	, "assets/img/slider/7.jpg"
+	  "assets/img/slider/Uthiru_Pearls.jpg"
+	, "assets/img/slider/Jubilee_Center.jpg"
+	, "assets/img/slider/Heliconia_Gardens.jpg"
 	], {duration: 3000, fade: 750});
+
+	$(window).on("backstretch.before", function (e, instance, index) {
+		// If we wanted to stop the slideshow after it reached the end
+		if (index ==0) {
+			$('.slider-2-container h1 span').text('Uthiru Pearls');
+		};
+		if (index ==1) {
+			$('.slider-2-container h1 span').text('Jubilee Center');
+		};
+		if (index ==2) {
+			$('.slider-2-container h1 span').text('Heliconia Gardens');
+		};
+	});
 	
 	/*
 	    Image popup (home latest work)
