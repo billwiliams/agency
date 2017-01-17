@@ -14,7 +14,7 @@ body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: #888;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .violet { color: #9d426b; }
@@ -160,10 +160,11 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 .navbar>.container .navbar-brand { margin-left: 0; }
 
 .navbar-brand {
-	width: 167px;
+	width: 267px;
 	height: 106px;
 	background: url(../img/LOGO.jpg) left center no-repeat;
 	text-indent: -99999px;
+    margin-left: -103px !important;
 }
 
 /***** Slider *****/
