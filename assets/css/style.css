@@ -198,10 +198,12 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 
 .flex-caption {
     position: absolute;
-    left: 0;
-    bottom: 20px;
-    width: 95%;
-    padding: 10px 20px;
+    left: 0 ;
+    top: 0px ;
+
+
+    width: 15%;
+    /*padding: 1px 20px;*/
     background: #1d1d1d; /* browsers that don't support rgba */
     background: rgba(0, 0, 0, .7);
     font-size: 14px;
@@ -228,28 +230,47 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 /***** Slider 2 *****/
 
 .slider-2-container {
-	padding: 180px 0;
+	padding: 250px 0;
 }
 
 .slider-2-text {
-	padding: 30px 0 43px 0;
+	/*padding: 0 0 43px 0;*/
 	background: #1d1d1d; /* browsers that don't support rgba */
     background: rgba(0, 0, 0, .7);
     color: #fff;
 }
 
 .slider-2-text h1 {
-	padding-left: 30px;
-	padding-right: 30px;
+
+
 	font-family: 'Lobster', cursive;
     font-size: 30px;
     color: #fff;
     font-weight: bold;
 }
 
+.slider-2-header {
+
+
+    position: absolute;
+    right: 0 ;
+    bottom: 0px ;
+
+
+    width: 15%;
+    /*padding: 1px 20px;*/
+    background: #1d1d1d; /* browsers that don't support rgba */
+    background: rgba(0, 0, 0, .7);
+    font-size: 14px;
+    line-height: 24px;
+    color: #eaeaea;
+    text-align: left;
+    font-style: italic;
+}
+
 .slider-2-text p {
-	padding-left: 30px;
-	padding-right: 30px;
+	/*padding-left: 30px;*/
+	/*padding-right: 30px;*/
 	font-size: 18px;
     font-style: italic;
 }
