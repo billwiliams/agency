@@ -164,7 +164,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 	height: 106px;
 	background: url(../img/LOGO.jpg) left center no-repeat;
 	text-indent: -99999px;
-    margin-left: -103px !important;
+    margin-left: -32% !important;
 }
 
 /***** Slider *****/
